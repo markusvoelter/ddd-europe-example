@@ -82,5 +82,20 @@
       <ref role="PrY4T" node="Ex3kMQTSam" resolve="ITestContent" />
     </node>
   </node>
+  <node concept="1TIwiD" id="Ex3kMQU0jn">
+    <property role="EcuMT" value="765908034767029463" />
+    <property role="TrG5h" value="AssertState" />
+    <property role="34LRSv" value="assert state" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="Ex3kMQU0jo" role="PzmwI">
+      <ref role="PrY4T" node="Ex3kMQTSam" resolve="ITestContent" />
+    </node>
+    <node concept="1TJgyj" id="Ex3kMQU0jq" role="1TKVEi">
+      <property role="IQ2ns" value="765908034767029466" />
+      <property role="20kJfa" value="state" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="qnrz:Ex3kMQTfdX" resolve="State" />
+    </node>
+  </node>
 </model>
 

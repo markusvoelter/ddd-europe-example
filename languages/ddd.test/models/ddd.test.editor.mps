@@ -116,5 +116,23 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="Ex3kMQU0jQ">
+    <ref role="1XX52x" to="qrju:Ex3kMQU0jn" resolve="AssertState" />
+    <node concept="3EZMnI" id="Ex3kMQU0jV" role="2wV5jI">
+      <node concept="2iRfu4" id="Ex3kMQU0jW" role="2iSdaV" />
+      <node concept="3F0ifn" id="Ex3kMQU0jS" role="3EZMnx">
+        <property role="3F0ifm" value="assert state" />
+      </node>
+      <node concept="1iCGBv" id="Ex3kMQU0k4" role="3EZMnx">
+        <ref role="1NtTu8" to="qrju:Ex3kMQU0jq" resolve="state" />
+        <node concept="1sVBvm" id="Ex3kMQU0k6" role="1sWHZn">
+          <node concept="3F0A7n" id="Ex3kMQU0ke" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -106,5 +106,41 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="Ex3kMQU0zF">
+    <ref role="1M2myG" to="qrju:Ex3kMQU0jn" resolve="AssertState" />
+    <node concept="1N5Pfh" id="Ex3kMQU0zG" role="1Mr941">
+      <ref role="1N5Vy1" to="qrju:Ex3kMQU0jq" resolve="state" />
+      <node concept="3dgokm" id="Ex3kMQU0zH" role="1N6uqs">
+        <node concept="3clFbS" id="Ex3kMQU0zI" role="2VODD2">
+          <node concept="3clFbF" id="Ex3kMQU0zJ" role="3cqZAp">
+            <node concept="2YIFZM" id="Ex3kMQU0zK" role="3clFbG">
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <node concept="2OqwBi" id="Ex3kMQU0zL" role="37wK5m">
+                <node concept="2OqwBi" id="Ex3kMQU0zM" role="2Oq$k0">
+                  <node concept="2OqwBi" id="Ex3kMQU0zN" role="2Oq$k0">
+                    <node concept="2rP1CM" id="Ex3kMQU0zO" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="Ex3kMQU0zP" role="2OqNvi">
+                      <node concept="1xMEDy" id="Ex3kMQU0zQ" role="1xVPHs">
+                        <node concept="chp4Y" id="Ex3kMQU0zR" role="ri$Ld">
+                          <ref role="cht4Q" to="qrju:Ex3kMQTQgL" resolve="Test" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="Ex3kMQU0zS" role="2OqNvi">
+                    <ref role="3Tt5mk" to="qrju:Ex3kMQTQgO" resolve="machine" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="Ex3kMQU0zT" role="2OqNvi">
+                  <ref role="37wK5l" to="j70d:Ex3kMQTJNW" resolve="states" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
