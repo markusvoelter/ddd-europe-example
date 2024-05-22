@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="931c838b-60a8-4246-be1d-49e002680c63" name="ddd.statemachine" version="0" />
+    <use id="33d0895e-4ce0-4fec-a1a5-fb2b8b1ac679" name="ddd.test" version="0" />
   </languages>
   <imports />
   <registry>
@@ -17,6 +18,11 @@
       <concept id="765908034766923102" name="ddd.statemachine.structure.Transition" flags="ng" index="2WhQwi">
         <reference id="765908034766924201" name="target" index="2WhQj_" />
         <reference id="765908034766923105" name="event" index="2WhQwH" />
+      </concept>
+    </language>
+    <language id="33d0895e-4ce0-4fec-a1a5-fb2b8b1ac679" name="ddd.test">
+      <concept id="765908034766988337" name="ddd.test.structure.Test" flags="ng" index="2WhA_X">
+        <reference id="765908034766988340" name="machine" index="2WhA_S" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -40,6 +46,10 @@
     <node concept="2WhvSL" id="Ex3kMQTfxp" role="2Whv$q">
       <property role="TrG5h" value="green" />
     </node>
+  </node>
+  <node concept="2WhA_X" id="Ex3kMQTU8W">
+    <property role="TrG5h" value="T1" />
+    <ref role="2WhA_S" node="Ex3kMQTfxj" resolve="TrafficLight" />
   </node>
 </model>
 

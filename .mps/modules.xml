@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/ddd.statemachine/ddd.statemachine.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/ddd.test/ddd.test.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/ddd.playground/ddd.playground.msd" folder="" />
     </projectModules>
   </component>
