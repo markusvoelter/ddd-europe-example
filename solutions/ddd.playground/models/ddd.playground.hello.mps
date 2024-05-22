@@ -23,6 +23,10 @@
     <language id="33d0895e-4ce0-4fec-a1a5-fb2b8b1ac679" name="ddd.test">
       <concept id="765908034766988337" name="ddd.test.structure.Test" flags="ng" index="2WhA_X">
         <reference id="765908034766988340" name="machine" index="2WhA_S" />
+        <child id="765908034766996119" name="contents" index="2WhCZr" />
+      </concept>
+      <concept id="765908034767004221" name="ddd.test.structure.TriggerEvent" flags="ng" index="2WhEXL">
+        <reference id="765908034767004222" name="event" index="2WhEXM" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -50,6 +54,9 @@
   <node concept="2WhA_X" id="Ex3kMQTU8W">
     <property role="TrG5h" value="T1" />
     <ref role="2WhA_S" node="Ex3kMQTfxj" resolve="TrafficLight" />
+    <node concept="2WhEXL" id="Ex3kMQTXfP" role="2WhCZr">
+      <ref role="2WhEXM" node="Ex3kMQTkkM" resolve="buttonPressed" />
+    </node>
   </node>
 </model>
 

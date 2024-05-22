@@ -67,5 +67,20 @@
     <property role="EcuMT" value="765908034766996118" />
     <property role="TrG5h" value="ITestContent" />
   </node>
+  <node concept="1TIwiD" id="Ex3kMQTU8X">
+    <property role="EcuMT" value="765908034767004221" />
+    <property role="TrG5h" value="TriggerEvent" />
+    <property role="34LRSv" value="trigger" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="Ex3kMQTU8Y" role="1TKVEi">
+      <property role="IQ2ns" value="765908034767004222" />
+      <property role="20kJfa" value="event" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="qnrz:Ex3kMQTimn" resolve="Event" />
+    </node>
+    <node concept="PrWs8" id="Ex3kMQTU90" role="PzmwI">
+      <ref role="PrY4T" node="Ex3kMQTSam" resolve="ITestContent" />
+    </node>
+  </node>
 </model>
 

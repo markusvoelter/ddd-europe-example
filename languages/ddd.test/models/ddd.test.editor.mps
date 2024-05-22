@@ -98,5 +98,23 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="Ex3kMQTXgk">
+    <ref role="1XX52x" to="qrju:Ex3kMQTU8X" resolve="TriggerEvent" />
+    <node concept="3EZMnI" id="Ex3kMQTXgp" role="2wV5jI">
+      <node concept="2iRfu4" id="Ex3kMQTXgq" role="2iSdaV" />
+      <node concept="3F0ifn" id="Ex3kMQTXgm" role="3EZMnx">
+        <property role="3F0ifm" value="trigger" />
+      </node>
+      <node concept="1iCGBv" id="Ex3kMQTXgy" role="3EZMnx">
+        <ref role="1NtTu8" to="qrju:Ex3kMQTU8Y" resolve="event" />
+        <node concept="1sVBvm" id="Ex3kMQTXg$" role="1sWHZn">
+          <node concept="3F0A7n" id="Ex3kMQTXgG" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
