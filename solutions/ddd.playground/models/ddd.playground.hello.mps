@@ -7,10 +7,17 @@
   <imports />
   <registry>
     <language id="931c838b-60a8-4246-be1d-49e002680c63" name="ddd.statemachine">
+      <concept id="765908034766841239" name="ddd.statemachine.structure.Event" flags="ng" index="2Wh2zr" />
       <concept id="765908034766828412" name="ddd.statemachine.structure.Machine" flags="ng" index="2WhvSK">
         <child id="765908034766828630" name="contents" index="2Whv$q" />
       </concept>
-      <concept id="765908034766828413" name="ddd.statemachine.structure.State" flags="ng" index="2WhvSL" />
+      <concept id="765908034766828413" name="ddd.statemachine.structure.State" flags="ng" index="2WhvSL">
+        <child id="765908034766849336" name="contents" index="2Wh4xO" />
+      </concept>
+      <concept id="765908034766923102" name="ddd.statemachine.structure.Transition" flags="ng" index="2WhQwi">
+        <reference id="765908034766924201" name="target" index="2WhQj_" />
+        <reference id="765908034766923105" name="event" index="2WhQwH" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -20,8 +27,15 @@
   </registry>
   <node concept="2WhvSK" id="Ex3kMQTfxj">
     <property role="TrG5h" value="TrafficLight" />
+    <node concept="2Wh2zr" id="Ex3kMQTkkM" role="2Whv$q">
+      <property role="TrG5h" value="buttonPressed" />
+    </node>
     <node concept="2WhvSL" id="Ex3kMQTfxk" role="2Whv$q">
       <property role="TrG5h" value="red" />
+      <node concept="2WhQwi" id="Ex3kMQTJMV" role="2Wh4xO">
+        <ref role="2WhQwH" node="Ex3kMQTkkM" resolve="buttonPressed" />
+        <ref role="2WhQj_" node="Ex3kMQTfxk" resolve="red" />
+      </node>
     </node>
     <node concept="2WhvSL" id="Ex3kMQTfxp" role="2Whv$q">
       <property role="TrG5h" value="green" />
