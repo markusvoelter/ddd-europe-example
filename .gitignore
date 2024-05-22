@@ -1,0 +1,27 @@
+target/
+TEST*.xml
+source_gen/
+source_gen.caches/
+classes_gen/
+classes_gen.caches/
+test_gen/
+.DS_Store
+*.iml
+.idea/
+.mps-caches/
+API_KEY
+
+# Eclipse files
+.classpath
+.project
+.settings/
+bin/
+xtend-gen/
+.metadata/
+
+#MPS config files
+git_toolbox_prj.xml
+
+# Maven release plugin files
+pom.xml.releaseBackup
+release.properties
