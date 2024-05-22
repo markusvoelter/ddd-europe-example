@@ -48,7 +48,7 @@
       <property role="TrG5h" value="red" />
       <node concept="2WhQwi" id="Ex3kMQTJMV" role="2Wh4xO">
         <ref role="2WhQwH" node="Ex3kMQTkkM" resolve="buttonPressed" />
-        <ref role="2WhQj_" node="Ex3kMQTfxk" resolve="red" />
+        <ref role="2WhQj_" node="Ex3kMQTfxp" resolve="green" />
       </node>
     </node>
     <node concept="2WhvSL" id="Ex3kMQTfxp" role="2Whv$q">

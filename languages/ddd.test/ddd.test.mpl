@@ -58,6 +58,8 @@
   <dependencies>
     <dependency reexport="false">931c838b-60a8-4246-be1d-49e002680c63(ddd.statemachine)</dependency>
     <dependency reexport="false">cfaa4966-b7d5-4b69-b66a-309a6e1a7290(org.iets3.core.expr.base)</dependency>
+    <dependency reexport="false">2c7d4009-5342-4f45-a25c-5cfc4557681b(ddd.interpreter)</dependency>
+    <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:1919c723-b60b-4592-9318-9ce96d91da44:de.itemis.mps.editor.celllayout" version="0" />
@@ -108,6 +110,7 @@
     <module reference="d09a16fb-1d68-4a92-a5a4-20b4b2f86a62(com.mbeddr.mpsutil.jung)" version="0" />
     <module reference="b4d28e19-7d2d-47e9-943e-3a41f97a0e52(com.mbeddr.mpsutil.plantuml.node)" version="0" />
     <module reference="726886d1-ef90-4249-a08f-1e3ec23a7113(com.mbeddr.mpsutil.traceExplorer)" version="0" />
+    <module reference="2c7d4009-5342-4f45-a25c-5cfc4557681b(ddd.interpreter)" version="0" />
     <module reference="931c838b-60a8-4246-be1d-49e002680c63(ddd.statemachine)" version="0" />
     <module reference="33d0895e-4ce0-4fec-a1a5-fb2b8b1ac679(ddd.test)" version="0" />
     <module reference="848ef45d-e560-4e35-853c-f35a64cc135c(de.itemis.mps.editor.celllayout.runtime)" version="0" />

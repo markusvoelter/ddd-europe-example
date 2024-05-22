@@ -151,5 +151,37 @@
       <node concept="3clFbS" id="Ex3kMQTJNN" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="Ex3kMQUnsk">
+    <ref role="13h7C2" to="qnrz:Ex3kMQTfdX" resolve="State" />
+    <node concept="13i0hz" id="Ex3kMQUnsv" role="13h7CS">
+      <property role="TrG5h" value="transitions" />
+      <node concept="3Tm1VV" id="Ex3kMQUnsw" role="1B3o_S" />
+      <node concept="A3Dl8" id="Ex3kMQUnsJ" role="3clF45">
+        <node concept="3Tqbb2" id="Ex3kMQUnsW" role="A3Ik2">
+          <ref role="ehGHo" to="qnrz:Ex3kMQTAlu" resolve="Transition" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="Ex3kMQUnsy" role="3clF47">
+        <node concept="3clFbF" id="Ex3kMQUntw" role="3cqZAp">
+          <node concept="2OqwBi" id="Ex3kMQUp7v" role="3clFbG">
+            <node concept="2OqwBi" id="Ex3kMQUnFk" role="2Oq$k0">
+              <node concept="13iPFW" id="Ex3kMQUntv" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="Ex3kMQUnX1" role="2OqNvi">
+                <ref role="3TtcxE" to="qnrz:Ex3kMQTkkS" resolve="contents" />
+              </node>
+            </node>
+            <node concept="v3k3i" id="Ex3kMQUqjg" role="2OqNvi">
+              <node concept="chp4Y" id="Ex3kMQUqkr" role="v3oSu">
+                <ref role="cht4Q" to="qnrz:Ex3kMQTAlu" resolve="Transition" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="Ex3kMQUnsl" role="13h7CW">
+      <node concept="3clFbS" id="Ex3kMQUnsm" role="2VODD2" />
+    </node>
+  </node>
 </model>
 
