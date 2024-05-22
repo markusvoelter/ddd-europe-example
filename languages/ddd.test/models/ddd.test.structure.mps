@@ -49,6 +49,9 @@
     <node concept="PrWs8" id="Ex3kMQTQgM" role="PzmwI">
       <ref role="PrY4T" to="4kwy:cJpacq5T0O" resolve="IValidNamedConcept" />
     </node>
+    <node concept="PrWs8" id="Ex3kMQUezr" role="PzmwI">
+      <ref role="PrY4T" to="4kwy:3R3AIvumrSU" resolve="ICanRunCheckManually" />
+    </node>
     <node concept="1TJgyj" id="Ex3kMQTQgO" role="1TKVEi">
       <property role="IQ2ns" value="765908034766988340" />
       <property role="20kJfa" value="machine" />

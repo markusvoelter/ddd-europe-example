@@ -4,6 +4,7 @@
   <languages>
     <use id="931c838b-60a8-4246-be1d-49e002680c63" name="ddd.statemachine" version="0" />
     <use id="33d0895e-4ce0-4fec-a1a5-fb2b8b1ac679" name="ddd.test" version="0" />
+    <use id="47f075a6-558e-4640-a606-7ce0236c8023" name="com.mbeddr.mpsutil.interpreter" version="1" />
   </languages>
   <imports />
   <registry>

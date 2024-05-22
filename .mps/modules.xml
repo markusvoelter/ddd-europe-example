@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/ddd.statemachine/ddd.statemachine.mpl" folder="lang" />
       <modulePath path="$PROJECT_DIR$/languages/ddd.test/ddd.test.mpl" folder="lang" />
+      <modulePath path="$PROJECT_DIR$/solutions/ddd.interpreter/ddd.interpreter.msd" folder="lang" />
       <modulePath path="$PROJECT_DIR$/solutions/ddd.playground/ddd.playground.msd" folder="" />
     </projectModules>
   </component>
