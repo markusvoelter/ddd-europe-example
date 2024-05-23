@@ -127,6 +127,32 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="IYG1JE3WYb" role="13h7CS">
+      <property role="TrG5h" value="vars" />
+      <node concept="3Tm1VV" id="IYG1JE3WYc" role="1B3o_S" />
+      <node concept="A3Dl8" id="IYG1JE3WYd" role="3clF45">
+        <node concept="3Tqbb2" id="IYG1JE3WYe" role="A3Ik2">
+          <ref role="ehGHo" to="qnrz:11S0koT4WDd" resolve="Variable" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="IYG1JE3WYf" role="3clF47">
+        <node concept="3clFbF" id="IYG1JE3WYg" role="3cqZAp">
+          <node concept="2OqwBi" id="IYG1JE3WYh" role="3clFbG">
+            <node concept="2OqwBi" id="IYG1JE3WYi" role="2Oq$k0">
+              <node concept="13iPFW" id="IYG1JE3WYj" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="IYG1JE3WYk" role="2OqNvi">
+                <ref role="3TtcxE" to="qnrz:Ex3kMQTfhm" resolve="contents" />
+              </node>
+            </node>
+            <node concept="v3k3i" id="IYG1JE3WYl" role="2OqNvi">
+              <node concept="chp4Y" id="IYG1JE3WYm" role="v3oSu">
+                <ref role="cht4Q" to="qnrz:11S0koT4WDd" resolve="Variable" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13i0hz" id="Ex3kMQTW$H" role="13h7CS">
       <property role="TrG5h" value="initialState" />
       <node concept="3Tm1VV" id="Ex3kMQTW$I" role="1B3o_S" />
